@@ -1,10 +1,8 @@
 <?php 
-for($i=0; $i<5; $i++){
-		for($j=0; $j<$i; $j++){
-		echo "X";
-	}
-	echo "<br>";	
-}
 
+$first_name = "Mr.";
+$last_name = "Lalit Lodhi";
+
+echo $first_name.$last_name;
 
 ?>
